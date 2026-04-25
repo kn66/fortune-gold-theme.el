@@ -1,0 +1,61 @@
+#+title: fortune-gold-theme design notes
+
+* Fortune Inputs
+
+The palette is based on the following interpretation:
+
+| Color family    | Direction                                 |
+|-----------------+-------------------------------------------|
+| Yellow/gold     | Main accent                               |
+| White           | Base atmosphere                           |
+| Beige/brown     | Warm structural base                      |
+| Water blue/navy | Secondary syntax support                  |
+| Red/pink        | Warning and special emphasis              |
+| Lavender/purple | Strings and documentation-adjacent syntax |
+| Silver          | Secondary UI text                         |
+| Green           | Limited status use                        |
+
+* Contrast Policy
+
+The theme intentionally avoids making every syntax color extremely dark.
+
+- ~default~ foreground should stay comfortably high contrast.
+- Syntax colors should usually stay near WCAG AA, around 4.5:1 to 5.5:1.
+- UI boundaries and inactive elements can be softer, but still visible.
+- Pure yellow is not used as foreground on the light background because it does
+  not provide enough contrast.
+- The theme delegates broad package face coverage to ~modus-themes~ and
+  ~ef-themes~, while keeping local overrides narrow.
+
+* Implementation Policy
+
+~fortune-gold~ is implemented as a Modus-derived theme.
+
+- Palette identity lives in ~fortune-gold-palette-partial~.
+- Face semantics live in ~fortune-gold-palette-mappings-partial~.
+- Common Ef palette semantics are appended via ~ef-themes-palette-common~.
+- Direct face overrides should be added only when semantic mappings do not
+  provide enough contrast or package-specific behavior.
+
+This implementation relies on the theme infrastructure and palette semantics
+created by Protesilaos Stavrou for ~modus-themes~ and ~ef-themes~.
+
+* Current Contrast Notes
+
+Measured against ~#fbf7ed~:
+
+| Color        | Hex       | Ratio |
+|--------------+-----------+-------|
+| Main text    | ~#3c3529~ | 11.32 |
+| Gold accent  | ~#8a6500~ |  4.98 |
+| Keyword gold | ~#8f6900~ |  4.69 |
+| Ochre        | ~#806027~ |  5.42 |
+| Water blue   | ~#1b7888~ |  4.80 |
+| Soft navy    | ~#416b9d~ |  5.15 |
+| Lavender     | ~#7c59a7~ |  5.11 |
+| Pink mauve   | ~#95587b~ |  4.96 |
+| Deep red     | ~#a84b44~ |  5.23 |
+| Orange amber | ~#9c5a2d~ |  5.02 |
+| Beige gray   | ~#756d61~ |  4.77 |
+| Silver gray  | ~#68727c~ |  4.58 |
+| Muted green  | ~#5b744e~ |  4.84 |

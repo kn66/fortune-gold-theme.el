@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">fortune-gold-theme palette</title>
+  <desc id="desc">Color palette swatches for the fortune-gold Emacs theme.</desc>
+  <rect width="960" height="420" fill="#fbf7ed"/>
+  <text x="32" y="52" fill="#3c3529" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="700">fortune-gold-theme palette</text>
+  <text x="32" y="82" fill="#756d61" font-family="Inter, Segoe UI, sans-serif" font-size="14">Warm light palette with gold accents and WCAG AA-oriented syntax colors</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="13">
+    <g transform="translate(32 116)">
+      <rect width="124" height="72" rx="6" fill="#fbf7ed" stroke="#d8caa9"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Background</text>
+      <text x="12" y="116" fill="#756d61">#fbf7ed</text>
+    </g>
+    <g transform="translate(166 116)">
+      <rect width="124" height="72" rx="6" fill="#f1e6cc" stroke="#d8caa9"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Dim bg</text>
+      <text x="12" y="116" fill="#756d61">#f1e6cc</text>
+    </g>
+    <g transform="translate(300 116)">
+      <rect width="124" height="72" rx="6" fill="#e9d28a" stroke="#d8caa9"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Gold bg</text>
+      <text x="12" y="116" fill="#756d61">#e9d28a</text>
+    </g>
+    <g transform="translate(434 116)">
+      <rect width="124" height="72" rx="6" fill="#3c3529"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Main text</text>
+      <text x="12" y="116" fill="#756d61">#3c3529</text>
+    </g>
+    <g transform="translate(568 116)">
+      <rect width="124" height="72" rx="6" fill="#756d61"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Comment</text>
+      <text x="12" y="116" fill="#756d61">#756d61</text>
+    </g>
+    <g transform="translate(702 116)">
+      <rect width="124" height="72" rx="6" fill="#68727c"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Silver</text>
+      <text x="12" y="116" fill="#756d61">#68727c</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="13">
+    <g transform="translate(32 270)">
+      <rect width="96" height="54" rx="6" fill="#8a6500"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Gold</text>
+      <text x="0" y="98" fill="#756d61">#8a6500</text>
+    </g>
+    <g transform="translate(140 270)">
+      <rect width="96" height="54" rx="6" fill="#8f6900"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Keyword</text>
+      <text x="0" y="98" fill="#756d61">#8f6900</text>
+    </g>
+    <g transform="translate(248 270)">
+      <rect width="96" height="54" rx="6" fill="#806027"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Ochre</text>
+      <text x="0" y="98" fill="#756d61">#806027</text>
+    </g>
+    <g transform="translate(356 270)">
+      <rect width="96" height="54" rx="6" fill="#1b7888"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Water</text>
+      <text x="0" y="98" fill="#756d61">#1b7888</text>
+    </g>
+    <g transform="translate(464 270)">
+      <rect width="96" height="54" rx="6" fill="#416b9d"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Navy</text>
+      <text x="0" y="98" fill="#756d61">#416b9d</text>
+    </g>
+    <g transform="translate(572 270)">
+      <rect width="96" height="54" rx="6" fill="#7c59a7"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Lavender</text>
+      <text x="0" y="98" fill="#756d61">#7c59a7</text>
+    </g>
+    <g transform="translate(680 270)">
+      <rect width="96" height="54" rx="6" fill="#95587b"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Mauve</text>
+      <text x="0" y="98" fill="#756d61">#95587b</text>
+    </g>
+    <g transform="translate(788 270)">
+      <rect width="96" height="54" rx="6" fill="#a84b44"/>
+      <text x="0" y="78" fill="#3c3529" font-weight="700">Red</text>
+      <text x="0" y="98" fill="#756d61">#a84b44</text>
+    </g>
+  </g>
+</svg>
