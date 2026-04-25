@@ -55,6 +55,7 @@
 
     ;; Fortune-specific helper colors
     (bg-hl "#F6EDDA")
+    (bg-prose-block "#F8F1E3")
     (gold-soft "#D4AA34")
     (gold-strong "#8A6500")
     (water-soft "#1B7888")
@@ -327,9 +328,9 @@
     (fg-active-value yellow)
 
     ;; Prose blocks
-    (bg-prose-block-delimiter bg-dim)
+    (bg-prose-block-delimiter bg-prose-block)
     (fg-prose-block-delimiter fg-dim)
-    (bg-prose-block-contents bg-dim)
+    (bg-prose-block-contents bg-prose-block)
     (bg-prose-code unspecified)
     (bg-prose-macro unspecified)
     (bg-prose-verbatim unspecified)

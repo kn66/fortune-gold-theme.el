@@ -38,6 +38,7 @@ projects.
 | Role                      | Hex       |
 |---------------------------+-----------|
 | Background                | ~#fbf7ed~ |
+| Prose block background    | ~#f8f1e3~ |
 | Dim background            | ~#f1e6cc~ |
 | Gold highlight background | ~#e9d28a~ |
 | Main text                 | ~#3c3529~ |

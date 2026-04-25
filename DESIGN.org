@@ -34,6 +34,9 @@ The theme intentionally avoids making every syntax color extremely dark.
 - Palette identity lives in ~fortune-gold-palette-partial~.
 - Face semantics live in ~fortune-gold-palette-mappings-partial~.
 - Common Ef palette semantics are appended via ~ef-themes-palette-common~.
+- Org/prose block contents use a dedicated ~bg-prose-block~ surface that is
+  lighter than ~bg-dim~, so source blocks remain distinct without becoming a
+  heavy beige panel.
 - Direct face overrides should be added only when semantic mappings do not
   provide enough contrast or package-specific behavior.
 

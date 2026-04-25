@@ -7,32 +7,37 @@
 
   <g font-family="Inter, Segoe UI, sans-serif" font-size="13">
     <g transform="translate(32 116)">
-      <rect width="124" height="72" rx="6" fill="#fbf7ed" stroke="#d8caa9"/>
+      <rect width="116" height="72" rx="6" fill="#fbf7ed" stroke="#d8caa9"/>
       <text x="12" y="96" fill="#3c3529" font-weight="700">Background</text>
       <text x="12" y="116" fill="#756d61">#fbf7ed</text>
     </g>
-    <g transform="translate(166 116)">
-      <rect width="124" height="72" rx="6" fill="#f1e6cc" stroke="#d8caa9"/>
+    <g transform="translate(158 116)">
+      <rect width="116" height="72" rx="6" fill="#f8f1e3" stroke="#d8caa9"/>
+      <text x="12" y="96" fill="#3c3529" font-weight="700">Prose block</text>
+      <text x="12" y="116" fill="#756d61">#f8f1e3</text>
+    </g>
+    <g transform="translate(284 116)">
+      <rect width="116" height="72" rx="6" fill="#f1e6cc" stroke="#d8caa9"/>
       <text x="12" y="96" fill="#3c3529" font-weight="700">Dim bg</text>
       <text x="12" y="116" fill="#756d61">#f1e6cc</text>
     </g>
-    <g transform="translate(300 116)">
-      <rect width="124" height="72" rx="6" fill="#e9d28a" stroke="#d8caa9"/>
+    <g transform="translate(410 116)">
+      <rect width="116" height="72" rx="6" fill="#e9d28a" stroke="#d8caa9"/>
       <text x="12" y="96" fill="#3c3529" font-weight="700">Gold bg</text>
       <text x="12" y="116" fill="#756d61">#e9d28a</text>
     </g>
-    <g transform="translate(434 116)">
-      <rect width="124" height="72" rx="6" fill="#3c3529"/>
+    <g transform="translate(536 116)">
+      <rect width="116" height="72" rx="6" fill="#3c3529"/>
       <text x="12" y="96" fill="#3c3529" font-weight="700">Main text</text>
       <text x="12" y="116" fill="#756d61">#3c3529</text>
     </g>
-    <g transform="translate(568 116)">
-      <rect width="124" height="72" rx="6" fill="#756d61"/>
+    <g transform="translate(662 116)">
+      <rect width="116" height="72" rx="6" fill="#756d61"/>
       <text x="12" y="96" fill="#3c3529" font-weight="700">Comment</text>
       <text x="12" y="116" fill="#756d61">#756d61</text>
     </g>
-    <g transform="translate(702 116)">
-      <rect width="124" height="72" rx="6" fill="#68727c"/>
+    <g transform="translate(788 116)">
+      <rect width="116" height="72" rx="6" fill="#68727c"/>
       <text x="12" y="96" fill="#3c3529" font-weight="700">Silver</text>
       <text x="12" y="116" fill="#756d61">#68727c</text>
     </g>
